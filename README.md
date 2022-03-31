@@ -1,4 +1,9 @@
-# 1. Create a user role in AWS that you will use to access the infrastructure and download access_key and Secret key and use it to create a terraform_aws_credential profile from your command line by using aws configure.  Note make sure awscli is installed so you can have access to aws resources from command line
+# first Install terraform on any platform using the link below
+https://www.terraform.io/downloads
+
+
+# 1. Create a user role in AWS that you will use to access the infrastructure and download access_key and Secret key and use it to create a terraform_aws_credential profile from your command line by using aws configure.  Note make sure awscli is installed so you can have access to aws resources from command line.
+https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 # 2. Create an AWS provider using terraform and the config and credentials profile you created and add your region and some other requirements for the provider.
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs
 
